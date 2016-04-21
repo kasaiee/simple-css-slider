@@ -1,0 +1,144 @@
+/* CUSTOM STYLES*/
+
+.center {
+	direction: rtl;
+    margin: auto;
+    width: 60%;
+}
+
+/*SLIDER STYLES*/
+div.slider img {
+	width: 800px;
+	height: 490px;
+}
+div.slider #img5 {
+    margin-left: -804px;
+	-webkit-animation-name: slide5;
+	animation-name: slide5;
+	-webkit-animation-duration: 20s;
+	animation-duration: 20s;
+	-webkit-animation-delay: 0s;
+	animation-delay: 0s;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+}
+div.slider #img4 {
+    margin-left: -804px;
+	-webkit-animation-name: slide4;
+	animation-name: slide4;
+	-webkit-animation-duration: 20s;
+	animation-duration: 20s;
+	-webkit-animation-delay: 0s;
+	animation-delay: 0s;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+}
+div.slider #img3 {
+    margin-left: -804px;
+	-webkit-animation-name: slide3;
+	animation-name: slide3;
+	-webkit-animation-duration: 20s;
+	animation-duration: 20s;
+	-webkit-animation-delay: 0s;
+	animation-delay: 0s;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+}
+div.slider #img2 {
+    margin-left: -804px;
+	-webkit-animation-name: slide2;
+	animation-name: slide2;
+	-webkit-animation-duration: 20s;
+	animation-duration: 20s;
+	-webkit-animation-delay: 0s;
+	animation-delay: 0s;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+}
+div.slider #img1 {
+    margin-left: -804px;
+	-webkit-animation-name: slide1;
+	animation-name: slide1;
+	-webkit-animation-duration: 20s;
+	animation-duration: 20s;
+	-webkit-animation-delay: 0s;
+	animation-delay: 0s;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes slide5 {
+	0% {opacity: 1;}
+	25% {opacity: 0;}
+	50% {opacity: 0;}
+	75% {opacity: 0;}
+	100% {opacity: 1;}
+}
+@-webkit-keyframes slide4 {
+	0% {opacity: 1;}
+	25% {opacity: 0;}
+	50% {opacity: 0;}
+	75% {opacity: 0;}
+	100% {opacity: 1;}
+}
+@-webkit-keyframes slide3 {
+	0% {opacity: 1;}
+	25% {opacity: 0;}
+	50% {opacity: 0;}
+	75% {opacity: 0;}
+	100% {opacity: 1;}
+}
+@-webkit-keyframes slide2 {
+	0% {opacity: 1;}
+	25% {opacity: 0;}
+	50% {opacity: 0;}
+	75% {opacity: 0;}
+	100% {opacity: 1;}
+}
+@-webkit-keyframes slide1 {
+	0% {opacity: 1;}
+	25% {opacity: 0;}
+	50% {opacity: 0;}
+	75% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes slide5 {
+	0% {opacity: 1;}
+	25% {opacity: 0;}
+	50% {opacity: 0;}
+	75% {opacity: 0;}
+	100% {opacity: 1;}
+}
+@keyframes slide4 {
+	0% {opacity: 0;}
+	25% {opacity: 1;}
+	50% {opacity: 0;}
+	75% {opacity: 0;}
+	100% {opacity: 0;}
+
+}
+@keyframes slide3 {
+	0% {opacity: 0;}
+	25% {opacity: 0;}
+	50% {opacity: 1;}
+	75% {opacity: 0;}
+	100% {opacity: 0;}
+}
+@keyframes slide2 {
+	0% {opacity: 0;}
+	25% {opacity: 0;}
+	50% {opacity: 0;}
+	75% {opacity: 1;}
+	100% {opacity: 0;}
+}
+@keyframes slide1 {
+	0% {opacity: 0;}
+	25% {opacity: 0;}
+	50% {opacity: 0;}
+	75% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
